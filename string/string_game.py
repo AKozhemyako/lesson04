@@ -1,11 +1,33 @@
 # reading
 # The programm make reading from *txt file
-print('Open end close file')
+print('Открываю файл ssh.txt: ')
 text_file = open('ssh.txt', 'r')
-text_file.close()
-print('\nread file by symbol`s.')
-text_file = open('ssh.txt', 'r')
+
+print('\nЧитаю некоторые символы из файла')
+print(text_file.read(1))
+print(text_file.read(4))
+print(text_file.read(10))
+
+print('\nЧитаю остальную часть файла')
 print(text_file.read())
+print('Закрываю файлю')
 text_file.close()
-print('\nFile is read and close.')
+print('Файл закрыт.')
+print('Открываю файл ssh, ставлю кодировку utf-8, если будут русские буквы')
+text_file = open('ssh.txt', 'r', encoding='utf-8')
+print('Читаю строки с 1 по 5 открыторго файла, и закрываю файл')
+print(text_file.readline())
+print(text_file.readline())
+print(text_file.readline())
+print(text_file.readline())
+text_file.close()
+print('Открываю файл ssh.txt.')
+text_file = open('ssh.txt', 'r', encoding='utf-8')
+lines = text_file.readlines()
+print(lines)
+print(len(lines))
+for line in lines:
+    print(line)
+text_file.close()
+
 
