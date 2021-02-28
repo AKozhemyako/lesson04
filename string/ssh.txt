@@ -1,0 +1,12 @@
+HelloHello
+=~=~=~=~=~=~=~=~=~=~=~= MobaXterm log 2020.10.13 17:10:02 =~=~=~=~=~=~=~=~=~=~=~=
+
+[2020-10-13 17:10:02]  
+[2020-10-13 17:10:02]  
+[2020-10-13 17:10:02]  Session stopped
+[2020-10-13 17:10:02]      - Press <return> to exit tab
+[2020-10-13 17:10:02]      - Press R to restart session
+[2020-10-13 17:10:02]      - Press S to save terminal output to file
+[2020-10-13 17:10:02]  
+[2020-10-13 17:10:02]  Disconnected: No supported authentication methods available (server sent: publickey)
+[2020-10-13 17:10:02]  
